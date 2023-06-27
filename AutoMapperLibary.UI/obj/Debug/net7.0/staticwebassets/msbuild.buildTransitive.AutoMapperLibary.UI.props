@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AutoMapperLibary.UI.props" />
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AutoMapperLibary.UI.props" />
+</Project>

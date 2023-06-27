@@ -1,0 +1,14 @@
+﻿@using AutoMapperLibary.UI.DTOS;
+@model List<ProductDto>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@foreach (var product in Model)
+{
+    <p>@product.ProductName</p>
+    <p>@product.Price</p>
+}
+
